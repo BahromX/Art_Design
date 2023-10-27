@@ -180,15 +180,15 @@ header {
     position: relative;
     overflow: hidden;
 }
-.design-img ::after {
+.design-img::after {
     position: absolute;
     z-index: 1;
-    /* content: ""; */
+    content: "";
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.3);
 }
 .design-img img {
     transition: all 0.5s ease;
@@ -214,17 +214,32 @@ header {
     font-weight: 700;
     font-size: 1.1rem;
 }
-.design-title{
+.design-title {
     padding: 1rem;
     font-size: 1.2rem;
     text-align: center;
     width: 90%;
     margin: 0 auto;
 }
-.design-title a{
+.design-title a {
     color: var(--dark);
     text-decoration: none;
     text-transform: capitalize;
     font-family: var(--Playfair);
 }
 
+/* End of design styling */
+/* Start of blog styling */
+
+.block{
+    background:#f9f9f9;
+    padding: 4.5rem 0;    
+}
+.blog-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+/* End of blog styling */
