@@ -266,4 +266,39 @@ header {
     font-size: 1.4rem;
     padding: 0.3rem 0.6rem;
 }
+.blog-text{
+    margin: 2.2rem 0;
+    padding: 0 1rem;
+}
+.blog-text span{
+    font-weight: 300;
+    display: block;
+    padding-bottom: .5rem;
+}
+.blog-text h2{
+    font-family: var(--Playfair);
+    padding: 1rem 0;
+    font-size: 1.65rem;
+    font-weight: 500;
+}
+.blog-text p{
+    font-weight: 300;
+    font-size: 1.1rem;
+    opacity: .9 ;
+    padding-bottom: 1.2rem;
+}
+.blog-text a{
+    font-family: var(--Roboto);
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: var(--dark);
+    color:#fff;
+    padding: .55rem 2rem;
+    background:var(--dark);
+    transition: all .5s ease;
+}
+.blog-text a:hover{
+    background:var(--dark);
+
+}
 /* End of blog styling */
