@@ -60,6 +60,17 @@ header {
 .navigation .logo a:hover {
     opacity: 0.5;
 }
+.navbar-nav i{
+    color: #ffff;
+    display: block;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: opacity .5s ease;
+
+}
+navbar-nav i    :hover{
+    opacity: .7;
+}
 .navbar-nav {
     padding: 0.8rem 0 0, 2rem 0;
 }
@@ -366,3 +377,84 @@ footer span{
 }
 
 /* End of about styling */
+.navbar-nav i{
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .navbar-nav a{
+        display: none;
+    }
+    .kirish a{
+        display: none;
+    }
+    .navbar-nav i{
+        display: block;
+    }
+    .banner-title{
+        font-size: 3.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .design-content{
+        margin: 2rem 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+    .blog-content{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 2rem;
+        margin: 2rem 0;
+    }
+    .about-content{
+        display: grid;
+        grid-template-columns:100%;
+        column-gap: 3rem;
+        align-items: center;
+     }
+}
+@media only screen and (max-width: 474px) {
+    .search-input {
+        font-size: 1.2rem;
+        
+        height: 40px;
+        width: 350px;
+       
+    }
+    .banner-title{
+        font-size: 3rem;
+        padding-bottom: 1.5rem;
+}}
+@media only screen and (max-width: 400px) {
+    .search-input {
+        font-size: 1.2rem;
+        
+        height: 40px;
+        width: 250px;
+    }
+        .banner-title{
+            font-size: 2.7rem;
+            padding-bottom: 1.5rem;
+    }
+    }
+@media only screen and (max-width: 370px){
+    .banner-title{
+        font-size: 2rem;
+        padding-bottom: 1.5rem;
+}}
+@media only screen and (max-width: 370px){
+    .banner-title{
+        font-size: 1.9rem;
+        padding-bottom: 1.5rem;
+}}
+
+@media only screen and (max-width: 280px) {
+    .search-input {
+        font-size: 1.2rem;
+
+        height: 40px;
+        width: 210px;
+        
+    }
+}
