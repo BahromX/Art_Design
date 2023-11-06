@@ -12,6 +12,9 @@
     box-sizing: border-box;
     font-family: var(--Quicksand);
 }
+html{
+    scroll-behavior: smooth;
+}
 body {
     line-height: 1.4;
     color: var(--dark);
@@ -298,7 +301,68 @@ header {
     transition: all .5s ease;
 }
 .blog-text a:hover{
-    background:var(--dark);
+    background:var(--exDark);
 
 }
 /* End of blog styling */
+/* Start of about styling */
+ .about{
+    padding: 4.5rem 0;
+ }
+
+ .about-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+    align-items: center;
+ }
+ .about-text{
+    margin: 2rem 0;
+ }
+
+ .about-text p{
+font-size: 1.1rem;
+padding: .6rem 0;
+opacity: .8;
+ }
+ /* Start of about styling */
+
+footer{
+    background: var(--dark);
+    color:#fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.social-link{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.4rem;
+}
+.social-link a{
+    border: 2px solid #ffffff;
+    color:#ffffff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 .3rem;
+    transition: all .5s ease;
+}
+
+.social-link a:hover{
+background: #ffffff;
+color: var(--dark);
+}
+
+footer span{
+    margin-top: 1rem;
+    display:block;
+    font-family: var(--Playfair);
+    letter-spacing: 2px;
+}
+
+/* End of about styling */
